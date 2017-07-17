@@ -107,7 +107,22 @@
 
 
 
+// 赋值
+#define HB_STRING(object) (((object == nil) || ([object isEqual:[NSNull null]])) ? @"":[NSString stringWithFormat:@"%@", object])
 
+#define HB_INTEGER(object)    ( ((object == nil) || ([object isEqual:[NSNull null]])) ? 0 : [object integerValue])
+
+#define HB_FLOAT(object)    ( ((object == nil) || ([object isEqual:[NSNull null]])) ? 0.0f : [object floatValue])
+
+#define HB_DOUBLE(object)    ( ((object == nil) || ([object isEqual:[NSNull null]])) ? 0.0f : [object doubleValue])
+
+#define HB_BOOL(object)    ( ((object == nil) || ([object isEqual:[NSNull null]])) ? NO : [object boolValue])
+
+#define HB_ARRAY(object)    ( ((object == nil) || ([object isEqual:[NSNull null]])) ? @[] : object )
+
+#define HB_DICTIONARY(object)  ( ((object == nil) || ([object isEqual:[NSNull null]])) ? @{} : object )
+
+#define HB_DIC_VALUE(dic, key) ( (!dic || ![dic isKindOfClass:[NSDictionary class]] || [dic valueForKey:key] == nil || [dic valueForKey:key] == [NSNull null]) ? @"" : [dic valueForKey:key] )
 
 #pragma mark - Color
 //homePage用的灰色
