@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		441A5ABB1F3C16A7001749CA /* CommonPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 441A5ABA1F3C16A7001749CA /* CommonPickerView.m */; };
 		4462BAA51F0F3A8E00668FB4 /* ImagePickerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4462BAA41F0F3A8E00668FB4 /* ImagePickerTool.m */; };
 		44A473F71EADD1BB0009C4BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A473F61EADD1BB0009C4BC /* main.m */; };
 		44A473FA1EADD1BB0009C4BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A473F91EADD1BB0009C4BC /* AppDelegate.m */; };
@@ -145,6 +146,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		441A5AB91F3C16A7001749CA /* CommonPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonPickerView.h; sourceTree = "<group>"; };
+		441A5ABA1F3C16A7001749CA /* CommonPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonPickerView.m; sourceTree = "<group>"; };
 		4462BAA31F0F3A8E00668FB4 /* ImagePickerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerTool.h; sourceTree = "<group>"; };
 		4462BAA41F0F3A8E00668FB4 /* ImagePickerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePickerTool.m; sourceTree = "<group>"; };
 		44A473F21EADD1BB0009C4BC /* LSHKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSHKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -553,6 +556,8 @@
 		44E310121EB2E2B1006D476D /* CommonView */ = {
 			isa = PBXGroup;
 			children = (
+				441A5AB91F3C16A7001749CA /* CommonPickerView.h */,
+				441A5ABA1F3C16A7001749CA /* CommonPickerView.m */,
 				44E310131EB2E2B1006D476D /* LayoutTextView.h */,
 				44E310141EB2E2B1006D476D /* LayoutTextView.m */,
 				44E310151EB2E2B1006D476D /* MyPickerView.h */,
@@ -1032,6 +1037,7 @@
 				44A473F71EADD1BB0009C4BC /* main.m in Sources */,
 				44E310B71EB2E2B1006D476D /* AFSecurityPolicy.m in Sources */,
 				44E310B81EB2E2B1006D476D /* AFURLRequestSerialization.m in Sources */,
+				441A5ABB1F3C16A7001749CA /* CommonPickerView.m in Sources */,
 				44E310B91EB2E2B1006D476D /* AFURLResponseSerialization.m in Sources */,
 				44E310B51EB2E2B1006D476D /* AFHTTPSessionManager.m in Sources */,
 			);
